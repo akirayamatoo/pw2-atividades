@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset='utf-8'>
+    <title>Depoimentos Acadêmicos</title>
+</head>
+<body>
+
+    <h1>Mural de Depoimentos</h1>
+    <h2>Deixe sua contribuição</h2>
+    <p>Bem-vindo! Compartilhe sua experiência acadêmica com outros alunos usando o formulário abaixo.</p>
+    
+    <p>Para mais informações, <a href="https://ifpr.edu.br">acesse o site oficial</a>.</p>
+    <img src="images/logo_ifpr.png" alt="Logo IFPR" width="150">
+    <br><br>
+
+    <p><b>Instruções importantes:</b></p>
+    <ul>
+        <li><i>Preencha os campos obrigatórios.</i></li>
+        <li><i>Revise seu texto antes de enviar.</i></li>
+    </ul>
+    <br>
+
+    <form action="processa.php" method="POST">
+        
+        <label>Nome:</label><br>
+        <input type="text" name="nome" placeholder="Insira seu nome..." required><br><br>
+
+        <label>E-mail:</label><br>
+        <input type="email" name="email" placeholder="seuemail@exemplo.com" required><br><br>
+
+        <label>Curso:</label><br>
+        <input type="text" name="curso" placeholder="Insira seu curso..."><br><br>
+
+        <label>Depoimento:</label><br>
+        <textarea name="depoimento" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+
+    </form>
+
+</body>
+</html>
