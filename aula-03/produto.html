@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Cadastro de Compra</title>
+</head>
+<body>
+    <h1>Sistema de Vendas</h1>
+    <h2>Cadastrar Produto</h2>
+
+    <form method="POST" action="processa-produto.php">
+        
+        <table>
+            <tr>
+                <td><label>Nome do Produto: </label></td>
+                <td><input type="text" name="nome"></td>
+            </tr>
+            <tr>
+                <td><label>Valor (R$): </label></td>
+                <td><input type="text" name="valor"></td>
+            </tr>
+            <tr>
+                <td><label>Quantidade comprada: </label></td>
+                <td><input type="text" name="quantidade"></td>
+            </tr>
+        </table>
+        
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+        
+    </form>
+</body>
+</html>
