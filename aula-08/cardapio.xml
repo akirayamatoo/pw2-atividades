@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cardapio>
+    <prato>
+        <codigo>001</codigo>
+        <nome>Chili Dog Clássico</nome>
+        <descricao>Salsicha premium com chili picante e queijo derretido no pão macio.</descricao>
+        <valor>15.50</valor>
+    </prato>
+    
+    <prato>
+        <codigo>002</codigo>
+        <nome>Chaos Burger</nome>
+        <descricao>Hambúrguer artesanal de 200g, alface, tomate e nosso molho secreto especial.</descricao>
+        <valor>25.90</valor>
+    </prato>
+    
+    <prato>
+        <codigo>003</codigo>
+        <nome>Golden Rings</nome>
+        <descricao>Porção generosa de anéis de cebola dourados e perfeitamente crocantes.</descricao>
+        <valor>12.00</valor>
+    </prato>
+</cardapio>
